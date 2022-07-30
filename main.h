@@ -126,6 +126,8 @@ void rev_string(char *s);
 
 /* check_syntax_error.c */
 int checker(char **cmd, char *buf);
+int handle_builtin(char **command, char *line);
+void execution(char *cp, char **cmd);
 int repeated_char(char *input, int i);
 int error_sep_op(char *input, int i, char last);
 int first_char(char *input, int *i);
