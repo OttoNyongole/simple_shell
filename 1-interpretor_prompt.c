@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * prompt_user - print $ to take  user inputs
