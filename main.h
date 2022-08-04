@@ -38,6 +38,10 @@ char *_strchr(char *s, char c);
 void execution(char *cp, char **cmd);
 char *find_path(void);
 
+/*get_line function*/
+void bring_line(char **lineptr, size_t *n, char *beffer, size_t j);
+ssize_t get_line(char **;ineptr, size_t *n, FILE *stream);
+
 /* helper function for efficient free */
 void free_buffers(char **buf);
 
