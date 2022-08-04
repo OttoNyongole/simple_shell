@@ -38,13 +38,14 @@ int _strlen(char *s);
 int _strncmp(char *s1, char *s2, int n);
 char *_strdup(char *s);
 char *_strchr(char *s, char c);
+int _strcpy(char *s1, char *s2);
 
 void execution(char *cp, char **cmd);
 char *find_path(void);
 
 /*get_line function*/
 void bring_line(char **lineptr, size_t *n, char *beffer, size_t j);
-ssize_t get_line(char **;ineptr, size_t *n, FILE *stream);
+ssize_t get_line(char **lineptr, size_t *n, FILE *stream);
 
 /* helper function for efficient free */
 void free_buffers(char **buf);
