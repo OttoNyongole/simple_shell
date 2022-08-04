@@ -12,6 +12,10 @@
 #include <time.h>
 #include <stdbool.h>
 
+#define BUFSIZE 1024
+#define TOK_BUFSIZE 128
+#define TOK_DELIM "\t\r\a"
+
 /* environment variables */
 extern char **environ;
 extern __sighandler_t signal(int __sig, __sighandler_t __handler);
