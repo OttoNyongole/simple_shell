@@ -36,6 +36,7 @@ char *append_path(char *path, char *command);
 int handle_builtin(char **command, char *line);
 void exit_cmd(char **command, char *line);
 int alias(char **argv, lenv_s **lenv, unsigned int *execnt)
+char **check_variable(char **argv, lenv_s **lenv);
 
 void print_env(void);
 
