@@ -19,6 +19,7 @@
 /* environment variables */
 extern char **environ;
 extern __sighandler_t signal(int __sig, __sighandler_t __handler);
+int _setenv(char **argv, lenv_s **lenv, unsigned int *execnt)
 
 /* handle built ins */
 int checker(char **cmd, char *buf);
